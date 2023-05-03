@@ -1,0 +1,43 @@
+Package: systemd
+Pin: origin "mxrepo.com"
+Pin-Priority: -1
+
+Package: systemd-sysv
+Pin: origin "mxrepo.com"
+Pin-Priority: -1
+
+Package: systemd-timesyncd
+Pin: origin "mxrepo.com"
+Pin-Priority: -1
+
+Package: libsystemd0
+Pin: origin "mxrepo.com"
+Pin-Priority: -1
+
+Package: libpam-systemd
+Pin: origin "mxrepo.com"
+Pin-Priority: -1
+
+Package: firmware-intelwimax
+Pin: origin "mxrepo.com"
+Pin-Priority: -1
+
+Package: udev
+Pin: origin "mxrepo.com"
+Pin-Priority: -1
+
+Package: libudev1
+Pin: origin "mxrepo.com"
+Pin-Priority: -1
+
+Package: plymouth
+Pin: origin "mxrepo.com"
+Pin-Priority: -1
+
+Package: exfatprogs
+Pin: origin "mxrepo.com"
+Pin-Priority: -1
+
+Package: systemd-shim
+Pin: release *
+Pin-Priority: -1
