@@ -1,0 +1,21 @@
+#!/bin/sh
+
+lb config noauto \
+	--distribution bullseye \
+	--debian-installer live \
+	--debian-installer-distribution bullseye \
+	--debian-installer-gui true \
+	--archive-areas "main contrib non-free" \
+	--debootstrap-options "--variant=minbase --include=ca-certificates,openssl" \
+	--backports true \
+	--security true \
+	--updates true \
+	--source false \
+	--apt-indices false \
+	--clean \
+	--color \
+	--iso-publisher 'Debian + AHS; https://github.com/wwwfyl/debian-ahs' \
+	--iso-volume debian-bullseye-ahs \
+	--image-name debian-bullseye-ahs \
+	"${@}"
+
