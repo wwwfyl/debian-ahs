@@ -3,3 +3,4 @@ live-config
 live-config-systemd
 systemd-sysv
 ca-certificates
+libtext-iconv-perl
