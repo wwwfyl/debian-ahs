@@ -28,3 +28,15 @@ config/bootstrap
 config/chroot
 config/common
 config/source
+.build
+binary
+chroot
+binary.modified_timestamps
+chroot.files
+chroot.packages.install
+chroot.packages.live
+debian-bullseye-ahs-amd64.contents
+debian-bullseye-ahs-amd64.files
+debian-bullseye-ahs-amd64.hybrid.iso
+debian-bullseye-ahs-amd64.hybrid.iso.zsync
+debian-bullseye-ahs-amd64.packages
